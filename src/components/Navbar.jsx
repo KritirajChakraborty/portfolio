@@ -27,11 +27,12 @@ function Navbar({ mobileMenu, toggle, setIsMobMenuOpen }) {
             <a onClick={(e) => handleLinkClick(e, "#about")}>About Me</a>
           </li>
           <li className="text-neutral-100 text-md">
-            <a onClick={(e) => handleLinkClick(e, "#projects")}>Projects</a>
-          </li>
-          <li className="text-neutral-100 text-md">
             <a onClick={(e) => handleLinkClick(e, "#techstack")}>TechStack</a>
           </li>
+          <li className="text-neutral-100 text-md">
+            <a onClick={(e) => handleLinkClick(e, "#projects")}>Projects</a>
+          </li>
+
           <li className="text-neutral-100 text-md">
             <a onClick={(e) => handleLinkClick(e, "#education")}>Education</a>
           </li>
@@ -57,11 +58,12 @@ function Navbar({ mobileMenu, toggle, setIsMobMenuOpen }) {
             <a onClick={(e) => handleLinkClick(e, "#about")}>About Me</a>
           </li>
           <li className="text-neutral-100 text-md">
-            <a onClick={(e) => handleLinkClick(e, "#projects")}>Projects</a>
-          </li>
-          <li className="text-neutral-100 text-md">
             <a onClick={(e) => handleLinkClick(e, "#techstack")}>TechStack</a>
           </li>
+          <li className="text-neutral-100 text-md">
+            <a onClick={(e) => handleLinkClick(e, "#projects")}>Projects</a>
+          </li>
+
           <li className="text-neutral-100 text-md">
             <a onClick={(e) => handleLinkClick(e, "#education")}>Education</a>
           </li>
