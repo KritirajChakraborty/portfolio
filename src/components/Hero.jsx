@@ -57,7 +57,7 @@ function Hero({ mobileMenu }) {
             >
               <a
                 href="/resume.pdf"
-                download="resume.pdf"
+                download="resume1.pdf"
                 className="px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded hover:from-purple-500 hover:to-blue-500 transition"
               >
                 Download Resume
